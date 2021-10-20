@@ -21,6 +21,13 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <ul>
+        <li>
+          <Link href="/spotify">
+            <a>Spotify stuff</a>
+          </Link>
+        </li>
+      </ul>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
